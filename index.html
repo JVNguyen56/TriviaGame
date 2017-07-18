@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivia Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body style background="assets/images/bigbangguys.jpg">
+ <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center"><img src="assets/images/bigbang1.png"></h1>
+          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="btn-group">
+  <button id="start" class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Start the Game! <span class="caret"></span>
+  </button>
+      </div>
+      
+    <div id="setup" style="text-align: center">
+
+    <div id = "timer"></div>
+  
+    <div id = "question"></div>
+
+    <div id = "choice"></div>
+
+    <div id = "answer"></div>
+
+    <div id = "image"></div>
+
+</div>
+
+
+
+<embed src="assets/images/bigbangsong.mp3" autostart="true" loop="true"
+width="2" height="0">
+</embed>
+<noembed>
+<bgsound src="assets/images/bigbangsong.mp3" loop="infinite">
+</noembed>
+
+<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
