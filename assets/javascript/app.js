@@ -1,4 +1,4 @@
-var timer = 10;
+var timer = 20;
 
 var questions = [{
   question: "<h3>" + "Which character says Bazinga?" + "</h3>",
@@ -111,11 +111,11 @@ var intervalId;
             $("#timer").html(" ");
             questionCounter++;
             stop();
-            timer = 15;   
-            setTimeout(playGame,3000);
+            timer = 20;   
+            setTimeout(playGame,4000);
 
             if (questionCounter < 10){
-              setTimeout(run,3000);
+              setTimeout(run,4000);
           }
           else {
             stop();
